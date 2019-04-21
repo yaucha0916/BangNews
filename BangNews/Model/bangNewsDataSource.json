@@ -1,0 +1,83 @@
+{
+  "bangKeywords" : ["您可新增 例如：殺人 或是不喜歡的 政治人物"],
+  "favoriteNews" : [ {
+    "description" : "test",
+    "img_link" : "test",
+    "link" : "https://www.google.com.tw",
+    "pubDate" : "test",
+    "subTitle" : "請左滑刪除此項目",
+    "title" : "您收藏的新聞將顯示於此"
+  } ],
+  "tabBarTitles" : [ "頭條", "科技", "財經", "運動", "國際", "政治", "娛樂", "社會", "生活" ],
+  "version" : 1.1,
+  "wantKeywords" : [ "wantKey" ],
+  "wantSeeNews" : [ {
+    "description" : "wantKey",
+    "img_link" : "wantKey",
+    "link" : "wantKey",
+    "pubDate" : "wantKey",
+    "subTitle" : "wantKey",
+    "title" : "wantKey"
+  } ],
+  "webSites" : [ {
+    "isSubscribed" : true,
+    "newsCategoryArray" : [ {
+      "category" : 0,
+      "xmlAddress" : "https://udn.com/rssfeed/hottest?ch=news"
+    }, {
+      "category" : 1,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/7226?ch=news"
+    }, {
+      "category" : 2,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/6644?ch=news"
+    }, {
+      "category" : 3,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/7227?ch=news"
+    }, {
+      "category" : 4,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/7225?ch=news"
+    }, {
+      "category" : 5,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/6638/6656?ch=news"
+    }, {
+      "category" : 6
+    }, {
+      "category" : 7,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/6639?ch=news"
+    }, {
+      "category" : 8,
+      "xmlAddress" : "https://udn.com/rssfeed/news/2/6649?ch=news"
+    } ],
+    "webSiteName" : "聯合新聞網"
+  }, {
+    "isSubscribed" : true,
+    "newsCategoryArray" : [ {
+      "category" : 0,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/focus.xml"
+    }, {
+      "category" : 1
+    }, {
+      "category" : 2,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/business.xml"
+    }, {
+      "category" : 3,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/sports.xml"
+    }, {
+      "category" : 4,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/world.xml"
+    }, {
+      "category" : 5,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/politics.xml"
+    }, {
+      "category" : 6,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/entertainment.xml"
+    }, {
+      "category" : 7,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/society.xml"
+    }, {
+      "category" : 8,
+      "xmlAddress" : "http://news.ltn.com.tw/rss/life.xml"
+    } ],
+    "webSiteName" : "自由時報"
+  } ]
+}
