@@ -7,8 +7,8 @@
 //
 //以下是新聞網站的選擇訂閱頁面
 import UIKit
-import SafariServices
-class FavoriteViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,SFSafariViewControllerDelegate {
+//import SafariServices
+class FavoriteViewController: UIViewController,UITableViewDelegate,UITableViewDataSource/*,SFSafariViewControllerDelegate*/ {
     
     @IBOutlet weak var favoriteTableView: UITableView!
     var mainPageVC:ViewController!    //引入ViewController的類別實體
@@ -325,14 +325,16 @@ class FavoriteViewController: UIViewController,UITableViewDelegate,UITableViewDa
             //print(link_from_tableView)
             let url = URL(string:link_from_tableView)      //生成URL物件
             if let url = url{                   //optional binding
-//                UIApplication.shared.open(url, options: [:])
-                let config = SFSafariViewController.Configuration()    //生成SFSafariViewController的Configuration設定檔物件
-                config.entersReaderIfAvailable = true     //使設定檔物件的 是否進入閱讀模式（如果可以）這個屬性 為真
-                //生成SFSafariViewController物件，參數為網址URL與設定檔
-                let safariVC = SFSafariViewController(url: url, configuration: config)
-                safariVC.dismissButtonStyle = .done                  //設定離開該頁面的按鈕圖示
-                safariVC.preferredBarTintColor = UIColor.darkGray      //設定上方bar的顏色
-                present(safariVC, animated: true, completion: nil)     //表演出此SafariViewController
+                UIApplication.shared.open(url, options: [:])
+
+                
+//                let config = SFSafariViewController.Configuration()    //生成SFSafariViewController的Configuration設定檔物件
+//                config.entersReaderIfAvailable = true     //使設定檔物件的 是否進入閱讀模式（如果可以）這個屬性 為真
+//                //生成SFSafariViewController物件，參數為網址URL與設定檔
+//                let safariVC = SFSafariViewController(url: url, configuration: config)
+//                safariVC.dismissButtonStyle = .done                  //設定離開該頁面的按鈕圖示
+//                safariVC.preferredBarTintColor = UIColor.darkGray      //設定上方bar的顏色
+//                present(safariVC, animated: true, completion: nil)     //表演出此SafariViewController
             }
         }
     }
